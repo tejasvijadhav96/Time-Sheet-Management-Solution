@@ -1,0 +1,13 @@
+Title:
+System Reqruiement Specification for Time-Sheet Management System
+
+Team:
+	- Software Architect
+	- Business Analyst
+	- Quality Assurance Team
+	- System Analyst
+	- Software Tester
+
+Objective(Purpose):
+The time-sheet management system for system management web application is intended to provide a complete solution for students, faculties, and the head of the institute through a single gateway using the internet. It will enable the admin to update regular activities and to view the details of students and faculties so that, on the basis of their activities, students will get their remarks and faculties will get their feedback.
+
