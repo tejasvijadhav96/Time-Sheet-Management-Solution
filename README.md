@@ -36,7 +36,7 @@ arrive at more accurate estimates for similar tasks in the future. So, it’s us
 Time-sheet management  provide solutions for such uneasy situations through planning and organizing the tasks for students.Time-sheet management  provide student  to-do list of all the tasks that he/she has to do on a particular day so that we can track if they completed or not. A institute is a place where we take part in different events, take many tests throughout the year,  All these activities can be done by time-sheet management system .
 
 # NonFunctional Requirement:
-###### Security :
+### Security :
 Registered faculty,students and admin will allowed to view and update the details in their timesheet. Each stakeholder will be to access system through authentication 
 process. Who are you ? System will provide access to the content , operations using Role based security (Authorization) (Permissions based on Role).
 
