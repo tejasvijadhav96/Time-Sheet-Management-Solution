@@ -2,7 +2,7 @@
 Document: System Requirement Specification Document
 # Title:
 System Requirement Spefication for Time-Sheet Management System
-#Team:
+# Team:
   - Software Architect
 	- Business Analyst
 	- Quality Assurance Team
@@ -15,7 +15,7 @@ for students, faculties, and the head of the institute through a single gateway 
 the admin to update regular activities and to view the details of students and faculties so that, on the basis of 
 their activities, students will get their remarks and faculties will get their feedback.
 
-#Scope:
+# Scope:
 This project focuses completely on the timesheet process, in which there are three roles:
 1. Student
 2. Faculty
@@ -28,7 +28,7 @@ to the date.
 Next, let’s have a look at the "student" role. The student has a right to view the data uploaded by the faculties and administrators and also 
 to fill in and submit the details in the timesheet.After submitting it can be viewed by Admin who can  then “Approve” or “Reject” Timesheet.
 
-#Functional Requirements:
+# Functional Requirements:
 
 Timesheet data helps you see whether your staff abides by these contractual work time requirements and then fairly calculate salaries based on the number of hours tracked.Overtime laws vary from state to state. You need to know which faculty are exempt from them and which are not, what standard workweek duration is accepted in your region, what’s your overtime pay rate, etc. And after you get familiar with all the relevant rules and regulations, you need to track the time invested by your faculties members in work and handle every overtime hour with due care, as required by the law.Accurate timesheet data is key to error-free overtime pay calculations. Daily time tracking is an excellent way to monitor faculty & students attendance. It helps you see whether each faculties and students attends classes regularly and 
 whether they invest the necessary amount of time in their classes. Plus, thanks to management functionality included in such timesheet system management as ,
@@ -36,7 +36,7 @@ whether they invest the necessary amount of time in their classes. Plus, thanks 
 arrive at more accurate estimates for similar tasks in the future. So, it’s useful to scrutinize timesheet reports for already completed tasks by faculties when you plan out the new ones. Time tracking data depicted in them is key to better time estimation and superior control over your tasks.By showing how much time your faculties utilize on tasks, timesheet data helps you to detect punctuality of faculties and optimize various academic processes.Another important application of timesheet system management is, if submitted time tracking records for a specific faculty doesn't meet time estimates, you can try to figure out why your faculties spent too much time on the task. The problem may be in faculties’ ,where problems such as procrastination, miscommunication, technical issues and other workflow problems might exist. Timesheet data can’t point directly to them, but it gives evidence that the problem exists and indicates that you need to seek improvement.
 Time-sheet management  provide solutions for such uneasy situations through planning and organizing the tasks for students.Time-sheet management  provide student  to-do list of all the tasks that he/she has to do on a particular day so that we can track if they completed or not. A institute is a place where we take part in different events, take many tests throughout the year,  All these activities can be done by time-sheet management system .
 
-#NonFunctional Requirement:
+# NonFunctional Requirement:
 
 Security
 Registered faculty,students and admin will allowed to view and update the details in their timesheet. Each stakeholder will be to access system through authentication 
