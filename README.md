@@ -3,11 +3,11 @@ Document: System Requirement Specification Document
 # Title:
 System Requirement Spefication for Time-Sheet Management System
 # Team:
-        - Software Architect
-	- Business Analyst
-	- Quality Assurance Team
-	- System Analyst
-	- Software Tester
+- Software Architect
+- Business Analyst
+- Quality Assurance Team
+- System Analyst
+- Software Tester
   
 # Objective(Purpose):
 The time-sheet management system for system management web application is intended to provide a complete solution
@@ -19,7 +19,8 @@ their activities, students will get their remarks and faculties will get their f
 This project focuses completely on the timesheet process, in which there are three roles:
 1. Student
 2. Faculty
-3. Admin.
+3. Admin
+
 Begin with the "Admin" role."Admin" has access to create a new "faculty" and "student." First, "Admin" creates "Faculty," and after creating
 the "Faculty,"  "Admin" creates a "student" and then assigns that student to a particular "Faculty."
 After assigning a student to a particular "faculty,"  the faculty has the right to view the student's profile and has the right to "approve" or "reject" the details.
