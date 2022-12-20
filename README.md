@@ -3,7 +3,7 @@ Document: System Requirement Specification Document
 # Title:
 System Requirement Spefication for Time-Sheet Management System
 # Team:
-  - Software Architect
+        - Software Architect
 	- Business Analyst
 	- Quality Assurance Team
 	- System Analyst
@@ -37,45 +37,44 @@ arrive at more accurate estimates for similar tasks in the future. So, it’s us
 Time-sheet management  provide solutions for such uneasy situations through planning and organizing the tasks for students.Time-sheet management  provide student  to-do list of all the tasks that he/she has to do on a particular day so that we can track if they completed or not. A institute is a place where we take part in different events, take many tests throughout the year,  All these activities can be done by time-sheet management system .
 
 # NonFunctional Requirement:
-
-Security
+## Security :
 Registered faculty,students and admin will allowed to view and update the details in their timesheet. Each stakeholder will be to access system through authentication 
 process. Who are you ? System will provide access to the content , operations using Role based security (Authorization) (Permissions based on Role).
 
-Reliability
+## Reliability :
 The system will backup business data on regular basis and recover in short time duration to keep system operational Continous updates are matained , continous
  Adminstration is done to keep system operational. During peak hours system will maintain same user experaince by managing load balacning .
 
-Availability
+## Availability :
 uptime: 24* 7 available 99.999%
 
-Maintainability:
+## Maintainability :
 A Commercial database software will be used to maintain System data Persistence. A readymade Web Server will be installed to host online time-sheet portal 
 (Web Site) to management server capabilities. Separate enviornment will be maintained for system for isolation in production, testing, and development.
 
-Portablility:
+## Portablility :
 PDA: Portable Device Application System will provide portable User Interface ( HTML, CSS, JS) through users will be able to access time-sheet management portal. 
 System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP).
 
-Accessibility:
+## Accessibility :
 Only registered customer will be able to access the time-sheet after authentication. Admin will be able to view daily, weekly, monthly, annual timesheet of 
 both students and faculties through customized dashboard. 
 
-Durability:
+## Durability :
 System will retain timesheet data for 15 minutes even though users loose internet connection and join again. Only registered customer will be able to access the 
 time-sheet after authentication. Admin will be able to view daily, weekly, monthly, annual timesheet of both students and faculties through customized dashboard. 
 
-Efficiency:
+## Efficiency :
 On the basis of activites we get the daily,weekly,monthly data of students and faculty in proper manner.
 
-Modularity:
+## Modularity :
 System will contain dashboard, login page and the timesheet data window. Here we can easily log on to the activities done at the beginning of the day and 
 log off while the work is completed. 
 
-Scalability:
+## Scalability :
 System will be able to provide consistent user exeprience to admin and other users.
 
-Safety:
+## Safety :
 Timesheet management system will be secure from malicious attack, fishing. Timesheet management system functionalilites are protected from outside 
 with prper firewall configuration. All data will be backed up periodically to ensure safty of data using increamental back up strategy. 
 Role based security will be applied for Application data and operations accessibility.
