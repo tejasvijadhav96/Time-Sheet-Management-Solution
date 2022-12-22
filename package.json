@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "js",
   "version": "1.0.0",
   "description": "",
@@ -66,4 +67,27 @@
   },
   "author": "",
   "license": "ISC"
+=======
+  "name": "time-sheet-management-solution",
+  "version": "1.0.0",
+  "description": "Time Sheet Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasvijadhav96/Time-Sheet-Management-Solution.git"
+  },
+  "author": "Tejasvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejasvijadhav96/Time-Sheet-Management-Solution/issues"
+  },
+  "homepage": "https://github.com/tejasvijadhav96/Time-Sheet-Management-Solution#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+>>>>>>> 890bf78249158527e67047ee64ba2b6add9fb2c3
 }
