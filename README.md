@@ -3,11 +3,11 @@ System Requirement Specification Document
 # Title:
 System Reqruiement Specification for Time-Sheet Management System
 ## Team:
-  - Software Architect
-	- Business Analyst
-	- Quality Assurance Team
-	- System Analyst
-	- Software Tester
+- Software Architect
+- Business Analyst
+- Quality Assurance Team
+- System Analyst
+- Software Tester
 ## Objective(Purpose):
 The time-sheet management system for system management web application is intended to provide a complete solution for students, faculties, and the head of the 
 institute through a single gateway using the internet. It will enable the admin to update regular activities and to view the details of students and faculties 
@@ -16,12 +16,10 @@ so that, on the basis of their activities, students will get their remarks and f
 This project focuses completely on the timesheet process, in which there are three roles:
 1. Student
 2. Faculty
-3. Admin.
+3. Admin
 Begin with the "Admin" role."Admin" has access to create a new "faculty" and "student." First, "Admin" creates "Faculty," and after creating
 the "Faculty,"  "Admin" creates a "student" and then assigns that student to a particular "Faculty."
-After assigning a student to a particular "faculty,"  the faculty has the right to view the student's profile and has the right to "approve" or "reject" the details.
-which the student has submitted. "Faculty" can export the timesheet based on the date and users, and expenses can also be exported based on the date and users.
-to the date.
+After assigning a student to a particular "faculty,"  the faculty has the right to view the student's profile and has the right to "approve" or "reject" the details which the student has submitted. "Faculty" can export the timesheet based on the date and users, and expenses can also be exported based on the date and users to the date.
 Next, let’s have a look at the "student" role. The student has a right to view the data uploaded by the faculties and administrators and also 
 to fill in and submit the details in the timesheet.After submitting it can be viewed by Admin who can  then “Approve” or “Reject” Timesheet.
 ## Functional Requirements:
