@@ -17,6 +17,7 @@ This project focuses completely on the timesheet process, in which there are thr
 1. Student
 2. Faculty
 3. Admin
+
 Begin with the "Admin" role."Admin" has access to create a new "faculty" and "student." First, "Admin" creates "Faculty," and after creating
 the "Faculty,"  "Admin" creates a "student" and then assigns that student to a particular "Faculty."
 After assigning a student to a particular "faculty,"  the faculty has the right to view the student's profile and has the right to "approve" or "reject" the details which the student has submitted. "Faculty" can export the timesheet based on the date and users, and expenses can also be exported based on the date and users to the date.
