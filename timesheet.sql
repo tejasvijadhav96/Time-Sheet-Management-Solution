@@ -15,18 +15,15 @@ CONSTRAINT cname_fk1 FOREIGN KEY(cname) references COURSE(cname));
 CREATE TABLE course(cid INT NOT NULL PRIMARY KEY AUTO_INCREMENT, cname VARCHAR(30) unique, fees DECIMAL(9,2), sid INT,
 CONSTRAINT sid_fk FOREIGN KEY(sid) references SUBJECTS(sid));
 
-CREATE TABLE facultyTimeSheet(fid INT, attendence VARCHAR(30), intime DATETIME , outtime DATETIME, date1 DATE,
+CREATE TABLE facultyTimeSheet(fid INT, task VARCHAR(30),timespent TIME , date1 DATE,
 CONSTRAINT fid_fk1 FOREIGN KEY(fid) references FACULTY(fid));
-
+drop table facultyTimeSheet;
 CREATE TABLE faculty_student(fid INT ,rollno INT,
 CONSTRAINT fid_fk2 FOREIGN KEY(fid) references FACULTY(fid),
 CONSTRAINT rollno_fk2 FOREIGN KEY(rollno) references STUDENT(rollno));
 
-CREATE TABLE studentTimeSheet(rollno INT,attendence VARCHAR(30),subjectname VARCHAR(25),
-assignment VARCHAR(30),date1 DATE,
-CONSTRAINT rollno_fk3 FOREIGN KEY(rollno) references STUDENT(rollno),
-CONSTRAINT subname_fk FOREIGN KEY(subjectname) references SUBJECTS(subjectname)
-);
+CREATE TABLE studentTimeSheet(rollno INT,task VARCHAR(30),timespent TIME , date1 DATE,
+CONSTRAINT rollno_fk3 FOREIGN KEY(rollno) references STUDENT(rollno));
 
 insert into faculty values(1,"Vibhavari", "1991-10-12","2015-05-11","50000","9823744412","F","vibhavari@gmail.com","Core Java",10);
 insert into faculty(fname,
@@ -55,7 +52,7 @@ mobno, grade , cname) values("Maheshwari", "2001-06-24","F","7896541232","A","DM
 insert into student (sname,dob, gender,
 mobno, grade , cname) values("Sagar", "1996-10-16","M","852641795","A","DBDA");
 
-
+insert into course values();
 
 
 
